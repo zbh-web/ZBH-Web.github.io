@@ -1,0 +1,23 @@
+/* 这里是额外的样式 */
+.highlight {
+    background: yellow;
+    padding: 2px 5px;
+    border-radius: 3px;
+}
+
+/* 动画效果 */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.card {
+    animation: fadeIn 0.5s ease-out;
+}
+
+/* 打印样式 */
+@media print {
+    .button, .header button {
+        display: none !important;
+    }
+}
