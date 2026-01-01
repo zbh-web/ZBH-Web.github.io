@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZBH - 赛博朋克个人空间</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Rajdhani:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- 赛博朋克背景 -->
+    <div class="cyber-bg"></div>
+    <div class="glitch-overlay"></div>
+    <div class="grid-lines"></div>
+    <div class="scan-line"></div>
+    
+    <!-- 霓虹边框 -->
+    <div class="neon-border top"></div>
+    <div class="neon-border right"></div>
+    <div class="neon-border bottom"></div>
+    <div class="neon-border left"></div>
+    
+    <!-- 主容器 -->
+    <div class="cyber-container">
+        <!-- 头部 -->
+        <header class="cyber-header">
+            <div class="terminal-line">
+                <span class="prompt">root@zbh:~#</span>
+                <span class="command">whoami</span>
+                <span class="cursor">█</span>
+            </div>
+            <h1 class="glitch" data-text="ZERO_BINARY_HACKER">ZERO_BINARY_HACKER</h1>
+            <p class="cyber-subtitle">>> CYBERPUNK DEVELOPER // FULL-STACK NEON NINJA <<</p>
+        </header>
+        
+        <!-- 主内容区 -->
+        <main class="main-grid">
+            <!-- 左侧面板 -->
+            <div class="panel left-panel neon-box">
+                <div class="panel-header">
+                    <span class="panel-title"><i class="fas fa-terminal"></i> SYSTEM INFO</span>
+                    <div class="panel-controls">
+                        <span class="control close"></span>
+                        <span class="control minimize"></span>
+                        <span class="control maximize"></span>
+                    </div>
+                </div>
+                <div class="panel-content">
+                    <div class="avatar-container">
+                        <div class="cyber-avatar">
+                            <div class="hexagon">
+                                <div class="hexagon-inner">
+                                    <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=ZBH" alt="Avatar">
+                                </div>
+                                <div class="hexagon-border"></div>
+                            </div>
+                            <div class="pulse-ring"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="status-display">
+                        <div class="status-item">
+                            <span class="status-label">IDENTITY:</span>
+                            <span class="status-value">ZHANG BOHAN</span>
+                        </div>
+                        <div class="status-item">
+                            <span class="status-label">CURRENT_SYS:</span>
+                            <span class="status-value pulse">ONLINE</span>
+                        </div>
+                        <div class="status-item">
+                            <span class="status-label">LOCATION:</span>
+                            <span class="status-value">DIGITAL_SPACE</span>
+                        </div>
+                        <div class="status-item">
+                            <span class="status-label">ACCESS_LEVEL:</span>
+                            <span class="status-value">ADMIN</span>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-bars">
+                        <h3><i class="fas fa-code"></i> SKILL MATRIX</h3>
+                        <div class="skill">
+                            <span>JAVASCRIPT/CSS/HTML</span>
+                            <div class="bar-container">
+                                <div class="bar" style="width: 95%" data-level="95%"></div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span>PYTHON/AI</span>
+                            <div class="bar-container">
+                                <div class="bar" style="width: 88%" data-level="88%"></div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span>REACT/VUE</span>
+                            <div class="bar-container">
+                                <div class="bar" style="width: 90%" data-level="90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span>CYBER_SECURITY</span>
+                            <div class="bar-container">
+                                <div class="bar" style="width: 85%" data-level="85%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- 中间面板 -->
+            <div class="panel center-panel neon-box">
+                <div class="panel-header">
+                    <span class="panel-title"><i class="fas fa-project-diagram"></i> ACTIVE PROJECTS</span>
+                </div>
+                <div class="panel-content">
+                    <div class="project-grid">
+                        <div class="project-card">
+                            <div class="project-icon">
+                                <i class="fas fa-brain"></i>
+                            </div>
+                            <h3>NEURAL_NET_V2</h3>
+                            <p>AI-driven neural network with quantum computing integration</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">PYTORCH</span>
+                                <span class="tech-tag">CUDA</span>
+                            </div>
+                            <a href="#" class="project-link">ACCESS_CODE <i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                        
+                        <div class="project-card">
+                            <div class="project-icon">
+                                <i class="fas fa-shield-alt"></i>
+                            </div>
+                            <h3>CRYPTO_VPN</h3>
+                            <p>Blockchain-based decentralized VPN with zero-knowledge proof</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">GO</span>
+                                <span class="tech-tag">RUST</span>
+                            </div>
+                            <a href="#" class="project-link">ACCESS_CODE <i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                        
+                        <div class="project-card">
+                            <div class="project-icon">
+                                <i class="fas fa-robot"></i>
+                            </div>
+                            <h3>AUTONET</h3>
+                            <p>Autonomous network security monitoring system</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">PYTHON</span>
+                                <span class="tech-tag">ELK</span>
+                            </div>
+                            <a href="#" class="project-link">ACCESS_CODE <i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                        
+                        <div class="project-card">
+                            <div class="project-icon">
+                                <i class="fas fa-gamepad"></i>
+                            </div>
+                            <h3>CYBER_RUNNER</h3>
+                            <p>Browser-based cyberpunk endless runner game</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">THREE.JS</span>
+                                <span class="tech-tag">WEBGL</span>
+                            </div>
+                            <a href="#" class="project-link">ACCESS_CODE <i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- 右侧面板 -->
+            <div class="panel right-panel neon-box">
+                <div class="panel-header">
+                    <span class="panel-title"><i class="fas fa-satellite-dish"></i> NETWORK CONNECT</span>
+                </div>
+                <div class="panel-content">
+                    <div class="terminal-window">
+                        <div class="terminal-header">
+                            <span class="terminal-title">secure_terminal@zbh:~</span>
+                        </div>
+                        <div class="terminal-body" id="terminal">
+                            <div class="terminal-line">
+                                <span class="prompt">$</span> initializing system...
+                            </div>
+                            <div class="terminal-line">
+                                <span class="prompt">$</span> loading cyber modules...
+                            </div>
+                            <div class="terminal-line">
+                                <span class="prompt">$</span> connection established
+                            </div>
+                            <div class="terminal-line">
+                                <span class="prompt">$</span> welcome to the grid
+                            </div>
+                            <div class="terminal-line">
+                                <span class="prompt">$</span> <span id="typing"></span><span class="cursor">█</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-panel">
+                        <h3><i class="fas fa-network-wired"></i> CONNECTION POINTS</h3>
+                        <div class="contact-buttons">
+                            <a href="https://github.com/ZBH-Web" class="contact-btn github">
+                                <i class="fab fa-github"></i> GITHUB_ACCESS
+                            </a>
+                            <a href="mailto:your-email@example.com" class="contact-btn email">
+                                <i class="fas fa-envelope"></i> ENCRYPTED_MAIL
+                            </a>
+                            <a href="#" class="contact-btn linkedin">
+                                <i class="fab fa-linkedin"></i> LINKEDIN_NODE
+                            </a>
+                            <a href="#" class="contact-btn twitter">
+                                <i class="fab fa-twitter"></i> DATA_STREAM
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="system-stats">
+                        <h3><i class="fas fa-chart-line"></i> REAL-TIME STATS</h3>
+                        <div class="stats-grid">
+                            <div class="stat">
+                                <div class="stat-value" id="code-lines">12547</div>
+                                <div class="stat-label">LINES_OF_CODE</div>
+                            </div>
+                            <div class="stat">
+                                <div class="stat-value" id="projects">12</div>
+                                <div class="stat-label">ACTIVE_PROJECTS</div>
+                            </div>
+                            <div class="stat">
+                                <div class="stat-value" id="contributions">348</div>
+                                <div class="stat-label">CONTRIBUTIONS</div>
+                            </div>
+                            <div class="stat">
+                                <div class="stat-value" id="uptime">99.8%</div>
+                                <div class="stat-label">SYSTEM_UPTIME</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        
+        <!-- 底部控制台 -->
+        <footer class="cyber-footer">
+            <div class="console">
+                <div class="console-text">
+                    <span class="console-prefix">SYSTEM></span>
+                    <span id="console-output">Initializing cyber interface... System ready. Welcome to the neon grid.</span>
+                </div>
+                <div class="console-controls">
+                    <button class="console-btn" onclick="runCommand('scan')">
+                        <i class="fas fa-satellite"></i> SCAN_NETWORK
+                    </button>
+                    <button class="console-btn" onclick="runCommand('encrypt')">
+                        <i class="fas fa-lock"></i> ENCRYPT_CONNECTION
+                    </button>
+                    <button class="console-btn" onclick="runCommand('hack')">
+                        <i class="fas fa-user-secret"></i> ACTIVATE_HACK
+                    </button>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>© 2024 ZBH. ALL SYSTEMS OPERATIONAL. ACCESS LEVEL: <span class="access-level">MAXIMUM</span></p>
+                <p class="matrix-line">01011010 01000010 01001000 00101110 01100011 01111001 01100010 01100101 01110010</p>
+            </div>
+        </footer>
+    </div>
+    
+    <!-- 音频控制 -->
+    <div class="audio-control">
+        <button id="music-toggle" class="music-btn">
+            <i class="fas fa-volume-up"></i> AMBIENT_SOUND
+        </button>
+        <audio id="ambient-music" loop>
+            <source src="https://assets.mixkit.co/music/preview/mixkit-tech-house-vibes-130.mp3" type="audio/mpeg">
+        </audio>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
